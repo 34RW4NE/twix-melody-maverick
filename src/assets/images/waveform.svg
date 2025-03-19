@@ -1,0 +1,56 @@
+
+<svg width="400" height="100" viewBox="0 0 400 100" xmlns="http://www.w3.org/2000/svg">
+  <rect x="0" y="45" width="5" height="10" rx="2" fill="#FFB800" class="bar-1" />
+  <rect x="10" y="40" width="5" height="20" rx="2" fill="#FFB800" class="bar-2" />
+  <rect x="20" y="35" width="5" height="30" rx="2" fill="#FFB800" class="bar-3" />
+  <rect x="30" y="30" width="5" height="40" rx="2" fill="#FFB800" class="bar-4" />
+  <rect x="40" y="25" width="5" height="50" rx="2" fill="#FFB800" class="bar-5" />
+  <rect x="50" y="30" width="5" height="40" rx="2" fill="#FFB800" class="bar-4" />
+  <rect x="60" y="35" width="5" height="30" rx="2" fill="#FFB800" class="bar-3" />
+  <rect x="70" y="40" width="5" height="20" rx="2" fill="#FFB800" class="bar-2" />
+  <rect x="80" y="45" width="5" height="10" rx="2" fill="#FFB800" class="bar-1" />
+  <rect x="90" y="40" width="5" height="20" rx="2" fill="#FFB800" class="bar-2" />
+  <rect x="100" y="35" width="5" height="30" rx="2" fill="#FFB800" class="bar-3" />
+  <rect x="110" y="30" width="5" height="40" rx="2" fill="#FFB800" class="bar-4" />
+  <rect x="120" y="25" width="5" height="50" rx="2" fill="#FFB800" class="bar-5" />
+  <rect x="130" y="30" width="5" height="40" rx="2" fill="#FFB800" class="bar-4" />
+  <rect x="140" y="35" width="5" height="30" rx="2" fill="#FFB800" class="bar-3" />
+  <rect x="150" y="40" width="5" height="20" rx="2" fill="#FFB800" class="bar-2" />
+  <rect x="160" y="45" width="5" height="10" rx="2" fill="#FFB800" class="bar-1" />
+  <rect x="170" y="40" width="5" height="20" rx="2" fill="#FFB800" class="bar-2" />
+  <rect x="180" y="35" width="5" height="30" rx="2" fill="#FFB800" class="bar-3" />
+  <rect x="190" y="30" width="5" height="40" rx="2" fill="#FFB800" class="bar-4" />
+  <rect x="200" y="25" width="5" height="50" rx="2" fill="#FFB800" class="bar-5" />
+  <rect x="210" y="30" width="5" height="40" rx="2" fill="#FFB800" class="bar-4" />
+  <rect x="220" y="35" width="5" height="30" rx="2" fill="#FFB800" class="bar-3" />
+  <rect x="230" y="40" width="5" height="20" rx="2" fill="#FFB800" class="bar-2" />
+  <rect x="240" y="45" width="5" height="10" rx="2" fill="#FFB800" class="bar-1" />
+  <rect x="250" y="40" width="5" height="20" rx="2" fill="#FFB800" class="bar-2" />
+  <rect x="260" y="35" width="5" height="30" rx="2" fill="#FFB800" class="bar-3" />
+  <rect x="270" y="30" width="5" height="40" rx="2" fill="#FFB800" class="bar-4" />
+  <rect x="280" y="25" width="5" height="50" rx="2" fill="#FFB800" class="bar-5" />
+  <rect x="290" y="30" width="5" height="40" rx="2" fill="#FFB800" class="bar-4" />
+  <rect x="300" y="35" width="5" height="30" rx="2" fill="#FFB800" class="bar-3" />
+  <rect x="310" y="40" width="5" height="20" rx="2" fill="#FFB800" class="bar-2" />
+  <rect x="320" y="45" width="5" height="10" rx="2" fill="#FFB800" class="bar-1" />
+  <rect x="330" y="40" width="5" height="20" rx="2" fill="#FFB800" class="bar-2" />
+  <rect x="340" y="35" width="5" height="30" rx="2" fill="#FFB800" class="bar-3" />
+  <rect x="350" y="30" width="5" height="40" rx="2" fill="#FFB800" class="bar-4" />
+  <rect x="360" y="25" width="5" height="50" rx="2" fill="#FFB800" class="bar-5" />
+  <rect x="370" y="30" width="5" height="40" rx="2" fill="#FFB800" class="bar-4" />
+  <rect x="380" y="35" width="5" height="30" rx="2" fill="#FFB800" class="bar-3" />
+  <rect x="390" y="40" width="5" height="20" rx="2" fill="#FFB800" class="bar-2" />
+
+  <style>
+    .bar-1 { animation: bar-anim 1s ease-in-out infinite; animation-delay: 0s; }
+    .bar-2 { animation: bar-anim 1.3s ease-in-out infinite; animation-delay: 0.1s; }
+    .bar-3 { animation: bar-anim 0.8s ease-in-out infinite; animation-delay: 0.2s; }
+    .bar-4 { animation: bar-anim 1.5s ease-in-out infinite; animation-delay: 0.3s; }
+    .bar-5 { animation: bar-anim 1.1s ease-in-out infinite; animation-delay: 0.4s; }
+
+    @keyframes bar-anim {
+      0%, 100% { height: 10px; y: 45px; }
+      50% { height: 50px; y: 25px; }
+    }
+  </style>
+</svg>
