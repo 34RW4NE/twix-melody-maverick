@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { Music, Github, Twitter, Discord, Heart } from 'lucide-react';
+import { Music, Github, Twitter, MessageCircle, Heart } from 'lucide-react';
 
 const Footer = () => {
   return (
@@ -25,7 +25,7 @@ const Footer = () => {
             
             <div className="flex space-x-4">
               <a href="#" className="w-9 h-9 rounded-full bg-slate-800 flex items-center justify-center hover:bg-twix-gold/20 transition-colors">
-                <Discord size={18} className="text-white" />
+                <MessageCircle size={18} className="text-white" />
               </a>
               <a href="#" className="w-9 h-9 rounded-full bg-slate-800 flex items-center justify-center hover:bg-twix-gold/20 transition-colors">
                 <Twitter size={18} className="text-white" />
